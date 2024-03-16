@@ -1,5 +1,9 @@
 @use "color";
 
+* {
+    
+}
+
 html {
     box-sizing: border-box;
     width: 100%;
@@ -10,6 +14,8 @@ body {
     background-color: var(--white-color);
     padding: 0;
     width: 100%;
+    display: flex;
+    margin: 0;
 }
 
 .main-title {
@@ -24,4 +30,16 @@ body {
     margin: 20px 10px;
     color: var(--brown-color);
     font-size: clamp(6pt, 2vw, 14pt);
+}
+
+.box {
+    background: rebeccapurple;
+}
+
+.grid {
+    width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    grid-auto-rows: 90px;
 }
