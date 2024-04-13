@@ -1,7 +1,8 @@
 :root {
-    --white-color: #f9f9f9;
-    --red-color: #dd0000;
-    --brown-color: #715925;
-    --yellow-color: #dfd182;
-    --blue-color: #0000dd;
+    --white-color: hsl(0, 100%, 100%);
+    --red-color: hsl(0, 100%, 50%);
+    --pink-color: hsl(0, 75%, 75% );
+    --brown-color: hsl(0, 20%, 28%);
+    --gray-color: hsl(0, 10%, 40%);
+    --light-gray-color: hsl(0, 8%, 85%);
 }
